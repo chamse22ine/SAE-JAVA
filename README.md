@@ -4,7 +4,6 @@
 
 Jeu Sokoban en Java : version graphique (Swing) et version console
 
-![Sokoban Screenshot](images/Haut.gif)
 
 ## 📚 Présentation
 
@@ -87,15 +86,10 @@ Légende :
 $ : caisse
 @ : robot
 : sol
-✏️ Améliorations possibles
-Annulation du dernier mouvement
-Redémarrage d’une partie
-Enchaînement des niveaux
-Ajout d’un timer ou affichage du score
-Niveaux personnalisés
+
 🙋️ Auteurs et crédits
 Projet guidé par [faculté Jean Perrin, Université d'Artois].
-Développé par [Ton nom ici].
+Développé par Chamseddine.
 
 📃 Licence
 Ce projet est proposé dans un cadre éducatif. Toute utilisation ou modification est permise à des fins pédagogiques.
