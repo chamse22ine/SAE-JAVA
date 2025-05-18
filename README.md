@@ -91,9 +91,9 @@ Example map (map/map1.txt):
  #  .  #
  #######
 ```
-Legend:
+# Legend:
 
-# : wall
+"#" : wall
 
 . : destination
 
