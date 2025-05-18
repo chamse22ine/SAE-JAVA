@@ -117,5 +117,5 @@ $ : box
 (space) : floor
 
 ## 📃 License
-# This project is provided for educational purposes. Any use or modification is allowed for learning or academic activities.
+This project is provided for educational purposes. Any use or modification is allowed for learning or academic activities.
 
