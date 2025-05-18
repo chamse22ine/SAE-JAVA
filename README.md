@@ -29,7 +29,7 @@ Aucune des deux interfaces n’est dupliquée : la logique du jeu est mutualisé
 ---
 
 ## 🗂️ Structure du projet
-
+```
 .
 ├── images/ # Images pour l’interface graphique
 ├── map/ # Fichiers textes des niveaux
@@ -38,7 +38,7 @@ Aucune des deux interfaces n’est dupliquée : la logique du jeu est mutualisé
 │ ├── vueTexte/ # Affichage & interaction console
 │ └── vueGraphique/ # Affichage graphique (Swing)
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Lancement
