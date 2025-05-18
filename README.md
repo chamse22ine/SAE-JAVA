@@ -1,95 +1,108 @@
 # SAE-Sokoban
 
-# Projet Sokoban
+# Sokoban Project
 
-Jeu Sokoban en Java : version graphique (Swing) et version console
-
-
-## 📚 Présentation
-
-**Sokoban** est un jeu de réflexion classique où un joueur dirige un robot pour pousser des caisses jusqu'à des emplacements précis ("destinations"). Ce projet, réalisé dans le cadre d'un TP de Programmation Orientée Objet (POO) à l'Université d'Artois, propose :
-
-- Une version en mode texte (console)
-- Une version graphique (avec Swing et images)
-
-Aucune des deux interfaces n’est dupliquée : la logique du jeu est mutualisée grâce à une architecture MVC (Modèle-Vue-Contrôleur).
+Java Sokoban Game: Graphical version (Swing) and Console version
 
 ---
 
-## 🚀 Fonctionnalités
+## 📚 Overview
 
-- Chargement dynamique des niveaux depuis des fichiers texte (`map/map1.txt`...)
-- Affichage textuel et graphique du plateau
-- Gestion des déplacements du robot dans 4 directions
-- Prise en charge des collisions : murs, caisses, destinations
-- Compteur de mouvements effectués
-- Détection de la victoire (toutes les caisses sur les destinations)
-- Possibilités d’améliorations (compteur, annulation de coup, chargement de niveaux, reset...)
+**Sokoban** is a classic puzzle game where a player controls a robot to push boxes onto specific target spots ("destinations"). This project, developed as part of an Object-Oriented Programming (OOP) lab at the University of Artois, features:
+
+- A console (text-based) version  
+- A graphical version (using Swing and images)
+
+Both interfaces share the same game logic, thanks to an MVC (Model-View-Controller) architecture.
 
 ---
 
-## 🗂️ Structure du projet
+## 🚀 Features
+
+- Dynamic level loading from text files (`map/map1.txt`, etc.)
+- Text-based and graphical board display
+- Robot movement in four directions
+- Collision handling: walls, boxes, destinations
+- Move counter
+- Win detection (all boxes on destinations)
+- Potential improvements (undo move, level loading, reset, etc.)
+
+---
+
+## 🗂️ Project Structure
 ```
 .
-├── images/ # Images pour l’interface graphique
-├── map/ # Fichiers textes des niveaux
+├── images/ # Images for the graphical interface
+├── map/ # Text files for levels
 ├── src/
-│ ├── modele/ # Logique du jeu (modèle: Robot, Carte, Caisse...)
-│ ├── vueTexte/ # Affichage & interaction console
-│ └── vueGraphique/ # Affichage graphique (Swing)
+│ ├── modele/ # Game logic (model: Robot, Map, Box, etc.)
+│ ├── vueTexte/ # Console view and interaction
+│ └── vueGraphique/ # Graphical view (Swing)
 └── README.md
 ```
+
+
 ---
 
-## ⚙️ Installation & Lancement
+## ⚙️ Installation & Running
 
-### Prérequis
+### Requirements
 
-- **Java 17 ou supérieur** (le projet utilise le switch avec flèches et autres syntaxes modernes).
+- **Java 17 or higher** (the project uses modern syntax such as switch expressions with arrows).
 
 ### Compilation
 
-Dans le dossier du projet :
+In the project root directory:
 
 ```bash
 javac -d bin src/modele/*.java src/vueTexte/*.java src/vueGraphique/*.java
-
-Lancement du jeu console
+```
+Run the game
+Console version:
+```
 java -cp bin vueTexte.SokobanTexte
-
-Lancement du jeu graphique
+```
+Graphical version:
+```
 java -cp bin vueGraphique.Sokoban
+```
+🕹️ Controls
+Console version (AZERTY):
 
-🕹️ Contrôles
-En mode texte (‘azerty’) :
+q: left
 
-q: gauche
-d: droite
-z: haut
-s: bas
-En mode graphique :
+d: right
 
-Touches fléchées du clavier
-📄 Format des cartes
-Exemple de carte (map/map1.txt) :
+z: up
 
+s: down
+
+Graphical version:
+
+Arrow keys
+
+📄 Map Format
+Example map (map/map1.txt):
+
+```
  #######
  #     #
  #.$@$.#
  #  .  #
  #######
+```
+Legend:
 
-Légende :
+# : wall
 
-# : mur
 . : destination
-$ : caisse
+
+$ : box
+
 @ : robot
-: sol
 
-🙋️ Auteurs et crédits
-Projet guidé par [faculté Jean Perrin, Université d'Artois].
-Développé par Chamseddine.
+(space) : floor
 
-📃 Licence
-Ce projet est proposé dans un cadre éducatif. Toute utilisation ou modification est permise à des fins pédagogiques.
+📃 License
+This project is provided for educational purposes. Any use or modification is allowed for learning or academic activities.
+
