@@ -79,8 +79,8 @@ Or from the JAR file:
 java -jar sokobanAdaadour.jar
 ```
 
-🕹️ Controls
-Console version (AZERTY):
+## 🕹️ Controls
+# Console version (AZERTY):
 
 q: left
 
@@ -90,7 +90,7 @@ z: up
 
 s: down
 
-Graphical version:
+# Graphical version:
 
 Arrow keys
 
