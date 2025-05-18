@@ -57,15 +57,28 @@ In the project root directory:
 ```bash
 javac -d bin src/modele/*.java src/vueTexte/*.java src/vueGraphique/*.java
 ```
-Run the game
-Console version:
-```
+## Run ▶️ Running the Game
+
+# 🖥️ Console version
+
+```bash
 java -cp bin vueTexte.SokobanTexte
 ```
-Graphical version:
+Or directly from the JAR file:
+```bash
+java -jar sokobanTexteAdaadour.jar
 ```
+
+# 🖼️ Graphical version
+
+```bash
 java -cp bin vueGraphique.Sokoban
 ```
+Or from the JAR file:
+```
+java -jar sokobanAdaadour.jar
+```
+
 🕹️ Controls
 Console version (AZERTY):
 
