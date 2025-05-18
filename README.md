@@ -94,8 +94,8 @@ s: down
 
 Arrow keys
 
-📄 Map Format
-Example map (map/map1.txt):
+## 📄 Map Format
+# Example map (map/map1.txt):
 
 ```
  #######
@@ -104,7 +104,7 @@ Example map (map/map1.txt):
  #  .  #
  #######
 ```
-# Legend:
+## Legend:
 
 "#" : wall
 
@@ -116,6 +116,6 @@ $ : box
 
 (space) : floor
 
-📃 License
-This project is provided for educational purposes. Any use or modification is allowed for learning or academic activities.
+## 📃 License
+# This project is provided for educational purposes. Any use or modification is allowed for learning or academic activities.
 
